@@ -1,0 +1,201 @@
+<html>
+	<head>
+		<!-- CHANGE TITLE AND META ACCORDINGLY -->
+		<title>Find My Car</title>
+		<meta name="description" content="Tanmay Kulkarni, Designer and Developer for Android and the Web">
+		<meta name="keywords" content="tanmay, kulkarni, android, ui, ux, frontend">
+		<meta name="copyright" content="Copyright © 2016 Tanmay Kulkarni. All Rights Reserved.">
+		<meta name="author" content="Tanmay Kulkarni">
+		<meta name="theme-color" content="#ffffff">
+		<meta content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes" name="viewport">
+		<link rel="stylesheet" href="css/tidy.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+		<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
+        <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="import" href="bower_components/paper-ripple/paper-ripple.html">
+		<link rel="import" href="bower_components/paper-fab/paper-fab.html">
+		<link rel="import" href="bower_components/iron-icons/iron-icons.html">
+	</head>
+	<body>
+
+
+
+		<div class="container" style="width: 100%">
+			<!-- COVER IMAGE AND FLOATING BUTTON -->
+			<div class="cover-image"></div>
+			<div class="desktop-fab-container ">
+				<!-- REPLACE WITH YOUR APP URL -->
+     			<a href="https://play.google.com/store/apps/details?id=appinventor.ai_tanmaykulkarni.FindMyCar&hl=en">
+     				<paper-fab class="wow fadeInUp desktop-fab" icon="shop"></paper-fab>
+     			</a>
+			</div>
+
+			<!-- ICON, NAME AND DESCRIPTION -->
+			<div class="wow fadeInUp content-card">
+				<!-- REPLACE WITH YOUR APP URL -->
+				<a href="https://play.google.com/store/apps/details?id=appinventor.ai_tanmaykulkarni.FindMyCar&hl=en">
+					<paper-fab class="mobile-fab" icon="shop"></paper-fab>
+				</a>
+
+				<div class="icon-and-title-flex">
+					<img src="fmc/icon.jpg" class="appicon"></img>
+					<div class="title-container">
+						<!-- REPLACE WITH YOUR APP NAME -->
+						<span class="text-title">Find My Car </span>
+						<br><div class="intertext-padding"></div>
+						<!-- REPLACE WITH YOUR DEV NAME -->
+						<span class="text-subtitle">by Tanmay Kulkarni</span>
+						<br><div class="intertext-padding"></div>
+						<!-- REPLACE WITH YOUR APP PRICE -->
+						<span class="text-subtitle"></span>
+					</div>
+				</div><br><br>
+				<!-- REPLACE WITH YOUR APP DESCRIPTION -->
+				<span class="text-description" style="font-size: 1.1em">Find my car is my second android application that's has been published on the play store.
+					After watching the Hollywood blockbuster Gravity in a big city mall, I and a friend of mine weren't able to locate the place where our car was parked.
+					This sparked the idea to create an application which would help in finding your car.<br><br>
+					The concept of Find my car is fairly simple and easy to understand. This makes using the app easier on the user-end as well.
+					Find my car uses Google map API's for storing the car's location and also tracing and locating it.<br><br>
+					<b>How does it work?</b><br>
+					<ul style="list-style-type:disc">
+					<li>When you park your car, open the app and click the <b>PARK</b> button.</li><br>
+					<li>This stores your car's position in the app. (Cache Memory)</li> <br>
+					<li>When you forget you car's position, you can simply click the <b>FIND MY CAR</b> button to locate your car.
+					(Opens Google Maps and navigates you from your current location to the car's parked location)</li><br>
+					</ul>
+					Thus, the entire process of finding the car is manual.
+					The application is still in BETA and I feel it requires some UI refinements, refreshed design, and tweaks.
+					On a slow internet connection, the app sometimes shows GPS coordinates instead of the location name. Such minor bugs are there.
+
+
+				</div>
+
+
+
+			<!-- OTHER APPS BY YOU -->
+			<div class="wow fadeInUp content-works">
+			    <div class="screenshot-item">
+                    <a href="fmc/ss1.png" data-featherlight="image">
+                        <img src="fmc/ss1.png">
+                    </a>
+                </div>
+                <div class="screenshot-item">
+                    <a href="fmc/ss2.png" data-featherlight="image">
+                        <img src="fmc/ss2.png">
+                    </a>
+                </div>
+                <div class="screenshot-item">
+                    <a href="fmc/ss3.png" data-featherlight="image">
+                        <img src="fmc/ss3.png">
+                    </a>
+                </div>
+                <div class="screenshot-item">
+                    <a href="fmc/ss4.png" data-featherlight="image">
+                        <img src="fmc/ss4.png">
+                    </a>
+                </div>
+     	    </div>
+
+
+		<!-- APP DETAILS -->
+		<div class="wow fadeInUp content-card" style="margin-top: 0;">
+     		<span class="text-subtitle" style="font-size: 2em; font-weight: 300; color: #333">Additional Information</span>
+			<br><br>
+			<div>
+				<!-- REPLACE WITH YOUR APP DETAILS ACCORDINGLY -->
+				<div class="detail-item">
+					<iron-icon class="details-icon" icon="mail"></iron-icon>
+					<span class="text-description">Category - Transportation</span>
+				</div>
+				<div class="detail-item">
+					<iron-icon class="details-icon" icon="star"></iron-icon>
+					<span class="text-description">Average Rating - 4.7</span>
+				</div>
+				<div class="detail-item">
+					<iron-icon class="details-icon" icon="info"></iron-icon>
+					<span class="text-description">Version No. - Version 1.0<span>
+				</div>
+				<div class="detail-item">
+					<iron-icon class="details-icon" icon="mail"></iron-icon>
+					<span class="text-description">Developer E-mail - iamtanmaykulkarni@gmail.com</span>
+				</div>
+				<div class="detail-item">
+					<iron-icon class="details-icon" icon="android"></iron-icon>
+					<span class="text-description">Compatible Android Version - Android 1.5+</span>
+				</div>
+				<div class="detail-item">
+					<iron-icon class="details-icon" icon="assessment"></iron-icon>
+					<span class="text-description">Installs - 100 - 500 downloads</span>
+				</div>
+				<div class="detail-item">
+					<iron-icon class="details-icon" icon="extension"></iron-icon>
+					<span class="text-description">IAP's - No in-app purchases</span>
+				</div>
+			</div>
+     	</div>
+
+		<!-- SPACE BELOW DETAILS -->
+		<div class="empty-space">
+			<div class="meta-container wow fadeInUp">
+				<div class="wow fadeInUp detail-item watermark credits">
+						<span class="text-description credits-text" style="color: #ffffff">Coded With Love By <a href="http://tanmaykulkarni.github.io/" style="color: #fff; font-weight: 700">Tanmay Kulkarni</a></span>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- ===================================================================================================== -->
+
+		<!-- JAVASCRIPT -->
+
+		<!-- Animations -->
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+
+		<!-- Scrollwheel Smoothing -->
+		<script>
+			$(function()
+			{
+				var $window = $(window);
+				var scrollTime = 0.2;
+				var scrollDistance = 270;
+				$window.on("mousewheel DOMMouseScroll", function(event)
+				{
+
+					event.preventDefault();
+					var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
+					var scrollTop = $window.scrollTop();
+					var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+					TweenMax.to($window, scrollTime,
+					{
+						scrollTo : { y: finalScroll, autoKill:true }, ease: Power1.easeOut, overwrite: 5
+
+					});
+				});
+			});
+		</script>
+
+		<!-- Google Analytics Script-->
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-73917913-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+	</body>
+</html>
