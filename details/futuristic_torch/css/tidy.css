@@ -35,7 +35,7 @@
 
 body,html
 {
-	background-color:#e5e5e5;
+	background-color:#D62027;
 	height:100%;
 	font-family:sans-serif;
 	margin: 0px;
@@ -152,7 +152,7 @@ a:active
 	height: 0.4em !important;
 }
 
-.cover-image
+/*.cover-image
 {
 	background-image:url(../img/red.png);
 	background-size:cover;
@@ -162,6 +162,7 @@ a:active
 	top:0;
 	position:fixed;
 }
+*/
 
 .icon-and-title-flex
 {
