@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04fe0ac-fff9-434d-b4f7-67f948e060a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/dwm/css/tidy.css" afterPath="$PROJECT_DIR$/details/dwm/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/find_my_car/css/tidy.css" afterPath="$PROJECT_DIR$/details/find_my_car/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/futuristic_torch/css/tidy.css" afterPath="$PROJECT_DIR$/details/futuristic_torch/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/ilabelit/css/tidy.css" afterPath="$PROJECT_DIR$/details/ilabelit/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/pupil_tracker/css/tidy.css" afterPath="$PROJECT_DIR$/details/pupil_tracker/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/roll_the_dice/css/tidy.css" afterPath="$PROJECT_DIR$/details/roll_the_dice/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/skyrocket/css/tidy.css" afterPath="$PROJECT_DIR$/details/skyrocket/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/stereocam/css/tidy.css" afterPath="$PROJECT_DIR$/details/stereocam/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/the_wall/css/tidy.css" afterPath="$PROJECT_DIR$/details/the_wall/css/tidy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details/website/css/tidy.css" afterPath="$PROJECT_DIR$/details/website/css/tidy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tanmaykulkarni.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,6 +103,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanmaykulkarni.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanmaykulkarni.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="details" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanmaykulkarni.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tanmaykulkarni.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="details" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilabelit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -133,12 +156,12 @@
       <updated>1473949521434</updated>
       <workItem from="1473949523455" duration="1787000" />
       <workItem from="1473953943350" duration="119000" />
-      <workItem from="1474090375957" duration="2196000" />
+      <workItem from="1474090375957" duration="5527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4102000" />
+    <option name="totallyTimeSpent" value="7433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="11" width="1346" height="688" extended-state="1" />
@@ -182,14 +205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="113" column="56" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -266,10 +281,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="116" column="33" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/details/dwm/css/tidy.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/dwm/dwm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
