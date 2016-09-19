@@ -36,15 +36,17 @@ background: linear-gradient(to left, #e53935 , #e35d5b); /* W3C, IE 10+/ Edge, F
         </div>
       </aside>
       <h1>A Device To Track Pupil Of The Eye</h1>
-      <p>Similar to <a href="http://tanmaykulkarni.github.io/details/stereocam/stereocam.html"><font color="#D62027">StereoCam</font></a>, Pupil tracker was built as a part of the internship I did at Srujana Center Of Innovation, Hyderabad in collaboration with MIT Media Labs. As the name says, Pupil Tracker is a hardware prototype developed to track the pupil of a human eye.</p>
+      <p>Similar to <a href="http://tanmaykulkarni.github.io/details/stereocam/stereocam.html"><font color="#D62027">StereoCam</font></a>, Pupil tracker was built as a part of the internship I did at Srujana Center Of Innovation, Hyderabad in collaboration
+        with MIT Media Labs. As the name says, Pupil Tracker is a hardware prototype developed to track the pupil of a human eye.</p>
       <p>
-      The project consisted of two teams - electrical engineering team and a software engineering team.
+        The project consisted of two teams - electrical engineering team and a software engineering team.
         <ul>
-<li>The electrical engineering team built a prototype similar to that of Google cardboard. The hardware module consisted of an HD Webcam, infrared lights, and an android smartphone.</li>
-<li>The software engineering team built a computer application in Open CV which would track the pupil and record its data.</li>
+          <li>The electrical engineering team built a prototype similar to that of Google cardboard. The hardware module consisted of an HD Webcam, infrared lights, and an android smartphone.</li>
+          <li>The software engineering team built a computer application in Open CV which would track the pupil and record its data.</li>
         </ul>
       </p>
-      <p>I built an android application which is composed of a football image, moving in a specific pattern in synchronized stereoscopic views. For building the application I made the use of Cardboard SDK to display 3D stereoscopic scenes with binocular rendering. In order to achieve synchronous motion animation I used Bitmap Drawable image and drew it on canvas. I used Android Scale Animation with bounce interpolator to achieve the bouncing animation of two images in a single plane.</p>
+      <p>I built an android application which is composed of a football image, moving in a specific pattern in synchronized stereoscopic views. For building the application I made the use of Cardboard SDK to display 3D stereoscopic scenes with binocular
+        rendering. In order to achieve synchronous motion animation I used Bitmap Drawable image and drew it on canvas. I used Android Scale Animation with bounce interpolator to achieve the bouncing animation of two images in a single plane.</p>
       <h2>Pupil Tracker In Action</h2>
       <br>
       <p class="image-p">
@@ -72,6 +74,25 @@ background: linear-gradient(to left, #e53935 , #e35d5b); /* W3C, IE 10+/ Edge, F
   <script src="js/zoom.js"></script>
   <script src="js/jquery.1.9.1.min.js"></script>
   <script src="js/readingTime.js"></script>
+
+  <!-- Google Analytics Script-->
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-73917913-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 </body>
 
