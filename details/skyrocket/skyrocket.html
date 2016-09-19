@@ -1,158 +1,70 @@
+<!DOCTYPE html>
 <html>
+
 <head>
+  <meta charset="UTF-8">
+  <title>Skyrocket</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Skyrocket</title>
-	<meta name="description" content="Tanmay Kulkarni, Designer and Developer for Android and the Web">
-	<meta name="keywords" content="tanmay, kulkarni, android, ui, ux, frontend">
-	<meta name="copyright" content="Copyright © 2016 Tanmay Kulkarni. All Rights Reserved.">
-	<meta name="author" content="Tanmay Kulkarni">
-	<meta name="theme-color" content="#D62027">
-	<meta content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes" name="viewport">
-	<link rel="stylesheet" href="css/tidy.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-	<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
-	<link href="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
-	<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="import" href="bower_components/paper-ripple/paper-ripple.html">
-	<link rel="import" href="bower_components/paper-fab/paper-fab.html">
-	<link rel="import" href="bower_components/iron-icons/iron-icons.html">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/zoom.css">
+
+
+
+
 </head>
-<body>
+
+<body style="
+
+background: #e53935; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #e53935 , #e35d5b); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #e53935 , #e35d5b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+
+  <div class="container">
+    <article class="main" style="background: #fff;">
+      <aside class="post-meta">
+        <div class="author-avatar"><img src="skyrocket/icon.jpg"></div>
+        <div class="post-info">
+          <p style="font-size: 2.5em;">Skyrocket</p>
+          <br>
+          <p class="text-muted" style="font-size: 1.2em; color: #555;">By Tanmay Kulkarni.</p>
+
+          <p class="text-muted" style="padding-top: 5px; font-size: 1.0em; color: #555;"><small style="font-size: 1.0em;"><span class="eta"></span> <span class="words"></span> 1 min read</small></p>
+        </div>
+      </aside>
+      <h1>An Arcade Shooter Game</h1>
+      <p>Skyrocket is an arcade shooter game developed in Unity3D for Windows OS and the Web. While playing Batman Arkham City on the PS3, I discovered that the game was made in Unreal Engine 3. Out of curiosity, I started searching on game engines and tried
+        to learn the basic aspects of game development. I was impressed with Unity 3D and thought about making a simple game in it.</p>
+      <p>Initial idea was to create an endless shooter game. I decided to design all the assets myself and thought about making an arcade shooter which would also have some retro background music. After getting to know Unity 3D and all its components I started
+        writing the game in C#. During the development of the game, I learned about game sprites, parallax mapping, particle physics, smoke effects and prefabs in unity. Thus, Skyrocket helped me understand game development and also brush up my photoshop
+        skills as I learned to create 2D game assets from scratch.</p>
+      <p>In the end, the game turned out to be pretty decent. Although I had difficulties porting it to android, the game can be played on Windows OS and on modern web browsers.</p>
+      <p>Check out the gameplay below or try the game yourself.</p>
+
+      <a href="http://tanmaykulkarni.github.io/skyrocket/Skyrocket.html"><font color="#D62027">Play Skyrocket</font></a>
+
+      <h2>Skyrocket Gameplay</h2>
+      <br>
+      <p class="image-p">
+        <img src="img/giphy.gif" alt="Skyrocket Gameplay" data-action="zoom" />
+      </p>
+
+    </article>
+
+  </div>
+  <br>
+  <center style="padding-bottom: 2em;"><span class="text-description credits-text" style="color: #ffffff">Coded With Love By <a href="http://tanmaykulkarni.github.io/" style="text-decoration: none; color: #ffffff; font-weight: 700">Tanmay Kulkarni</a></span></center>
 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="js/zoom.js"></script>
+  <script src="js/jquery.1.9.1.min.js"></script>
+  <script src="js/readingTime.js"></script>
 
-	<div class="container" style="width: 100%">
-		<!-- COVER IMAGE AND FLOATING BUTTON -->
-		<div class="cover-image"></div>
-		<div class="desktop-fab-container ">
-			<!-- APP URL -->
+</body>
 
-		</div>
-
-		<!-- ICON, NAME AND DESCRIPTION -->
-		<div class="wow fadeInUp content-card">
-			<!-- APP URL -->
-
-
-			<div class="icon-and-title-flex">
-				<img src="skyrocket/icon.jpg" class="appicon"></img>
-				<div class="title-container">
-					<!-- APP NAME -->
-					<span class="text-title">Skyrocket</span>
-					<br><div class="intertext-padding"></div>
-					<!-- DEV NAME -->
-					<span class="text-subtitle">by Tanmay Kulkarni</span>
-					<br><div class="intertext-padding"></div>
-					<!-- APP PRICE -->
-					<span class="text-subtitle"></span>
-				</div>
-			</div><br><br>
-			<!-- APP DESCRIPTION -->
-			<span class="text-description" style="font-size: 1.1em">Skyrocket is an arcade shooter game developed in Unity3D for Windows OS and the Web.
-				While playing Batman Arkham City on the PS3, I discovered that the game was made in Unreal Engine 3. Out of curiosity, I started searching on game engines and tried to learn the basic aspects of game development.
-				I was impressed with Unity 3D and thought about making a simple game in it.<br><br>
-				Initial idea was to create an endless shooter game. I decided to design all the assets myself and thought about making an arcade shooter which would also have some retro background music.
-				After getting to know Unity 3D and all its components I started writing the game in C#. During the development of the game, I learned about game sprites, parallax mapping, particle physics, smoke effects and prefabs in unity.
-				Thus, Skyrocket helped me understand game development and also brush up my photoshop skills as I learned to create 2D game assets from scratch.<br><br>
-				In the end, the game turned out to be pretty decent. Although I had difficulties porting it to android, the game can be played on Windows OS and on modern web browsers.<br><br>
-				Check out the gameplay below or try the game yourself.<br><br>
-				<a href="http://tanmaykulkarni.github.io/skyrocket/Skyrocket.html"><font color="#D62027">Play Skyrocket</font></a>
-
-     </div>
-<br><br>
-<img src="skyrocket/giphy.gif" align="middle" style="
-    width: 580px;
-    margin-left: 380px;
-    margin-right: 380px;
-"></img>
-
-			<!-- Screenshots
-			<div class="wow fadeInUp content-works">
-				<div class="screenshot-item">
-					<a href="thewall/ss1.png" data-featherlight="image">
-						<img src="thewall/ss1.png">
-					</a>
-				</div>
-				<div class="screenshot-item">
-					<a href="thewall/ss2.png" data-featherlight="image">
-						<img src="thewall/ss2.png">
-					</a>
-				</div>
-				<div class="screenshot-item">
-					<a href="thewall/ss4.png" data-featherlight="image">
-						<img src="thewall/ss4.png">
-					</a>
-				</div>
-				<div class="screenshot-item">
-					<a href="thewall/ss4.png" data-featherlight="image">
-						<img src="thewall/ss5.png">
-					</a>
-				</div>
-			</div>
-		</div> -->
-
-
-		<!-- SPACE BELOW DETAILS -->
-		<div class="empty-space">
-			<div class="meta-container wow fadeInUp">
-				<div class="wow fadeInUp detail-item watermark credits">
-					<span class="text-description credits-text" style="color: #ffffff">Coded With Love By <a href="http://tanmaykulkarni.github.io/" style="color: #fff; font-weight: 700">Tanmay Kulkarni</a></span>
-				</div>
-			</div>
-		</div>
-
-
-
-
-
-		<!-- ===================================================================================================== -->
-
-		<!-- JAVASCRIPT -->
-
-		<!-- Animations -->
-		<script src="js/wow.min.js"></script>
-		<script>
-		new WOW().init();
-		</script>
-
-		<!-- Scrollwheel Smoothing -->
-		<script>
-		$(function()
-		{
-			var $window = $(window);
-			var scrollTime = 0.2;
-			var scrollDistance = 270;
-			$window.on("mousewheel DOMMouseScroll", function(event)
-			{
-
-				event.preventDefault();
-				var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
-				var scrollTop = $window.scrollTop();
-				var finalScroll = scrollTop - parseInt(delta*scrollDistance);
-				TweenMax.to($window, scrollTime,
-					{
-						scrollTo : { y: finalScroll, autoKill:true }, ease: Power1.easeOut, overwrite: 5
-
-					});
-				});
-			});
-			</script>
-
-			<!-- Google Analytics Script-->
-
-			<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-73917913-1', 'auto');
-			ga('send', 'pageview');
-
-			</script>
-
-		</body>
-		</html>
+</html>
