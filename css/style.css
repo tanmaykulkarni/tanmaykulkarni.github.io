@@ -3,9 +3,9 @@
  * Coded With Love By Tanmay Kulkarni
  */
 
-.default_color{background-color: #D62027 !important}
+.default_color{background-color: #348AC7 !important}
 
-.default_color_text{color: #D62027 !important}
+.default_color_text{color: #348AC7 !important}
 
 .icon-block {
     padding: 0 15px;
@@ -18,7 +18,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #990000;
+    background-color: #1e3c72;
 
     }
 
